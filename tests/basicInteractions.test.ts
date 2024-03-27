@@ -1,5 +1,4 @@
 import test, { expect } from "@playwright/test";
-import exp from "constants";
 
 test("Basic interactions", async({page}) =>{
 
@@ -35,6 +34,8 @@ test('addition test', async ({ page }) => {
     const result = page.locator("#addmessage")
 
     let expectedResult = num1 + num2
+    // this assertion with toHaveText will check the entire message to ensure it matches text word 4 word
+    // Its similar to have 1===1
     expect(result).toHaveText(""+ expectedResult)  
 })
 

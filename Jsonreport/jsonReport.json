@@ -47,7 +47,7 @@
         "testDir": "D:/Testing/ecomPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/basicInteractions.test.ts"
+          "tests/dropdown.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,85 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\basicInteractions.test.ts",
-      "file": "tests/basicInteractions.test.ts",
+      "title": "tests\\dropdown.test.ts",
+      "file": "tests/dropdown.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Basic interactions",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-03-27T06:03:07.931Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "e8550347d925177e1da7-54c86b9bba4b037ee592",
-          "file": "tests/basicInteractions.test.ts",
-          "line": 4,
-          "column": 6
-        },
-        {
-          "title": "addition test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-03-27T06:03:07.932Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "e8550347d925177e1da7-02dac7b3c61a11c622a9",
-          "file": "tests/basicInteractions.test.ts",
-          "line": 20,
-          "column": 6
-        },
-        {
-          "title": "checkBox test",
+          "title": "Bootstrap/Jquery dropwdown",
           "ok": true,
           "tags": [],
           "tests": [
@@ -152,32 +80,32 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2017,
+                  "duration": 10022,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-03-27T06:03:07.932Z",
+                  "startTime": "2024-03-27T09:53:02.934Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "e8550347d925177e1da7-3d35e12465c3dd9e6746",
-          "file": "tests/basicInteractions.test.ts",
-          "line": 41,
-          "column": 5
+          "id": "6a3d7e996dd4874286aa-4b5c316f40781a2b6dfe",
+          "file": "tests/dropdown.test.ts",
+          "line": 22,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-03-27T06:03:07.263Z",
-    "duration": 3440.387,
+    "startTime": "2024-03-27T09:53:02.270Z",
+    "duration": 11462.371000000001,
     "expected": 1,
-    "skipped": 2,
+    "skipped": 0,
     "unexpected": 0,
     "flaky": 0
   }
