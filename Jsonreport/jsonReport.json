@@ -47,7 +47,7 @@
         "testDir": "D:/Testing/ecomPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/codegen.test.ts"
+          "tests/basicInteractions.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,85 @@
   },
   "suites": [
     {
-      "title": "tests\\codegen.test.ts",
-      "file": "tests/codegen.test.ts",
+      "title": "tests\\basicInteractions.test.ts",
+      "file": "tests/basicInteractions.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "Basic interactions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-03-27T06:03:07.931Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "e8550347d925177e1da7-54c86b9bba4b037ee592",
+          "file": "tests/basicInteractions.test.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "addition test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-03-27T06:03:07.932Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "e8550347d925177e1da7-02dac7b3c61a11c622a9",
+          "file": "tests/basicInteractions.test.ts",
+          "line": 20,
+          "column": 6
+        },
+        {
+          "title": "checkBox test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,27 +152,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10681,
+                  "duration": 2017,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-03-27T04:31:08.838Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Testing\\ecomPlaywright\\test-results\\tests-codegen-test\\test-finished-1.png"
-                    }
-                  ]
+                  "startTime": "2024-03-27T06:03:07.932Z",
+                  "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "839cb044c41a469d288d-b1aa30967a00c1f85715",
-          "file": "tests/codegen.test.ts",
-          "line": 3,
+          "id": "e8550347d925177e1da7-3d35e12465c3dd9e6746",
+          "file": "tests/basicInteractions.test.ts",
+          "line": 41,
           "column": 5
         }
       ]
@@ -108,10 +174,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-03-27T04:31:07.485Z",
-    "duration": 13338.355000000001,
+    "startTime": "2024-03-27T06:03:07.263Z",
+    "duration": 3440.387,
     "expected": 1,
-    "skipped": 0,
+    "skipped": 2,
     "unexpected": 0,
     "flaky": 0
   }
