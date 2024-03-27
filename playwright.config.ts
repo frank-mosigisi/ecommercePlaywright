@@ -8,7 +8,7 @@ export default defineConfig({
     //this section we have put it to record a screenshot and video when test is running
       screenshot: "only-on-failure",
       video: "retain-on-failure",
-      // this options slows down our tests so that they can be seen by the user when running
+      // this options slows down our tests so that they can be seen by a user
       launchOptions: {
         slowMo:1000
       }
