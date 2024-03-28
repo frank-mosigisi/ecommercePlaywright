@@ -47,7 +47,7 @@
         "testDir": "D:/Testing/ecomPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/dropdown.test.ts"
+          "tests/windows.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\dropdown.test.ts",
-      "file": "tests/dropdown.test.ts",
+      "title": "tests\\windows.test.ts",
+      "file": "tests/windows.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Bootstrap/Jquery dropwdown",
+          "title": "Interact with windows popups",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,30 +80,34 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10022,
+                  "duration": 10808,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "No of tabs: 3\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-03-27T09:53:02.934Z",
+                  "startTime": "2024-03-28T01:01:21.743Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "6a3d7e996dd4874286aa-4b5c316f40781a2b6dfe",
-          "file": "tests/dropdown.test.ts",
-          "line": 22,
-          "column": 6
+          "id": "98c21ebe87e39c315e15-6a4f9d28b3a440e0b035",
+          "file": "tests/windows.test.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-03-27T09:53:02.270Z",
-    "duration": 11462.371000000001,
+    "startTime": "2024-03-28T01:01:20.231Z",
+    "duration": 13342.483,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
