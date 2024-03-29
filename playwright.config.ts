@@ -3,7 +3,7 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
  //it accepts an array or we can run single tests
   // testMatch: ["Login.test.ts"]
-  testMatch: ["pomTests/addCart.spec.ts"],
+  testMatch: ["pomTests/addCartFixture.spec.ts"],
   use: {
     baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
     headless: false,
