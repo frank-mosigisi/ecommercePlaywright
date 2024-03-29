@@ -3,7 +3,7 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
  //it accepts an array or we can run single tests
   // testMatch: ["Login.test.ts"]
-  testMatch: ["tests/calender.test.ts"],
+  testMatch: ["tests/uploadDownload.test.ts"],
   use: {headless: false,
     //this section we have put it to record a screenshot and video when test is running
       screenshot: "only-on-failure",
