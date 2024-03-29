@@ -47,7 +47,7 @@
         "testDir": "D:/Testing/ecomPlaywright",
         "testIgnore": [],
         "testMatch": [
-          "tests/windows.test.ts"
+          "tests/calender.test.ts"
         ],
         "timeout": 30000
       }
@@ -60,13 +60,13 @@
   },
   "suites": [
     {
-      "title": "tests\\windows.test.ts",
-      "file": "tests/windows.test.ts",
+      "title": "tests\\calender.test.ts",
+      "file": "tests/calender.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Interact with windows popups",
+          "title": "calender demo using moment",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,34 +80,30 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10808,
+                  "duration": 9044,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "No of tabs: 3\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-03-28T01:01:21.743Z",
+                  "startTime": "2024-03-29T00:34:55.157Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "98c21ebe87e39c315e15-6a4f9d28b3a440e0b035",
-          "file": "tests/windows.test.ts",
-          "line": 3,
-          "column": 5
+          "id": "8b6b781e32c609f075b7-be91801c0f37e52915da",
+          "file": "tests/calender.test.ts",
+          "line": 12,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-03-28T01:01:20.231Z",
-    "duration": 13342.483,
+    "startTime": "2024-03-29T00:34:53.624Z",
+    "duration": 11632.089,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
